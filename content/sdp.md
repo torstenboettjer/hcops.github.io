@@ -1,7 +1,15 @@
 # Rethinking Infrastructure as Code
 #### Addressing enterprise requirements with cloud infrastructure that avoids unsecure, costly and slow application deployments 
 
---
+---
+
+<a href="#" class="navigate-down">
+    <img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
+</a>
+
+<img width="178" height="238" data-src="pictures/sdp-platform.drawio.svg">
+
+---
 
 ## Advanced requirements
 * a **configuration interface** that abstracts away underlying cloud provider details
