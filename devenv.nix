@@ -29,10 +29,10 @@
     enable = true;
     httpConfig = ''
       server {
-        listen       4000;
-        listen       [::]:4000;
+        listen       8080;
+        listen       [::]:8080;
         server_name  localhost;
-        root         ${config.env.DEVENV_ROOT}/content/;
+        root         ${config.env.DEVENV_ROOT}/content;
         index index.html;
         server_tokens off;
       }
