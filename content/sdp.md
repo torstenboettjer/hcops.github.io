@@ -1,17 +1,17 @@
 # Rethinking Infrastructure as Code
-#### Addressing enterprise requirements with cloud infrastructure that avoids unsecure, costly and slow application deployments 
+
+#### Addressing enterprise requirements with cloud infrastructure that avoids unsecure, costly and slow application deployments
 
 ---
 
-<a href="#" class="navigate-down">
-    <img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
-</a>
+### Service Delivery Platform
 
-<img width="178" height="238" data-src="pictures/sdp-platform.drawio.svg">
+<img data-src="pictures/sdp-platform.svg">
 
 ---
 
-## Advanced requirements
+### Advanced requirements
+
 * a **configuration interface** that abstracts away underlying cloud provider details
 * enforce **security best practices** least privileged access by default
 * integrated **cost estimation** prior to the deployment of a cloud service
@@ -20,7 +20,8 @@
 
 --
 
-## What is wrong with Terraform Modules?
+### What is wrong with Terraform Modules?
+
 * Continued cognitive load for developers when selecting the right modules
 * Not scaling to multiple cloud providers without a significant marginal investment
 * Very expensive to build out and maintain. As a result this strategy is primarily employed by organizations with the highest level of regulatory scrutiny (e.g. financial institutions).
