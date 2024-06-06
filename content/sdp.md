@@ -1,23 +1,12 @@
 # Rethinking Infrastructure as Code
 
-#### Deploying cloud services with an orchestrator that prevents unsecure solution designs and avoids costly operation
+#### Deploying cloud services with an controller that prevents unsecure deployments and avoids costly operation
 
-<!-- .slide: data-transition="slide" data-background="#5D1D2E" data-background-transition="zoom" -->
-
----
-
-## What is wrong with Terraform?
-
-* Continued cognitive load for developers when selecting the right modules
-* Not scaling to multiple cloud providers without a significant marginal investment
-* Very expensive to build out and maintain. As a result this strategy is primarily employed by organizations with the highest level of regulatory scrutiny (e.g. financial institutions).
-* Enforcing that modules are up-to-date with latest releases in an automated manner is largely an unsolved problem (to my knowledge)
-
-<!-- .slide: data-transition="slide" data-background="#997929" data-background-transition="zoom" -->
+<!-- .slide: data-transition="slide" data-background="#C15937" data-background-transition="zoom" -->
 
 ---
 
-## Operational Efficiency
+## Enterprise Requirements
 
 * A **configuration interface** that abstracts away cloud provider details
 * Enforce **security best practices** least privileged access by default
@@ -28,8 +17,28 @@
 
 --
 
+## What is wrong with Terraform?
+
+* Enterprise templates are complex, inflexible and expensive to maintain
+* Interference lead to unpredictable, unreliable deployments  
+* Automated release management remains unsolved
+* Quality assurance and/or cost predictions missing
+* Integrating enterprise "service providers" is challenging
+
+<!-- .slide: data-transition="slide" data-background="#997929" data-background-transition="zoom" -->
+
+---
+
 ### Service Delivery Platform
 
-<img data-src="content/pictures/sdp-platform.svg">
+<img data-src="content/pictures/platform.svg">
+
+<!-- .slide: data-transition="slide" data-background="#5D1D2E" data-background-transition="zoom" -->
+
+--
+
+### Resource Controller
+
+<img data-src="content/pictures/controller.svg">
 
 <!-- .slide: data-transition="slide" data-background="#5D1D2E" data-background-transition="zoom" -->
