@@ -6,7 +6,7 @@
 
 ### Service Delivery Platform
 
-<img data-src="pictures/sdp-platform.svg">
+<img data-src="content/pictures/sdp-platform.svg">
 
 ---
 
