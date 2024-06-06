@@ -14,15 +14,6 @@
 
 ---
 
-### Advanced requirements
-
-========
-#### Secure, cost-efficient and rapid<br>application deployments
-
-<!-- .slide: data-transition="slide" data-background="#5D1D2E" data-background-transition="zoom" -->
-
----
-
 ## Advanced requirements
 * a **configuration interface** that abstracts away underlying cloud provider details
 * enforce **security best practices** least privileged access by default
@@ -34,10 +25,6 @@
 
 --
 
-<<<<<<<< HEAD:content/sdp.md
-### What is wrong with Terraform Modules?
-
-========
 ## What is wrong with Terraform Modules?
 >>>>>>>> 25902947 (merge):content/sdp_draft.md
 * Continued cognitive load for developers when selecting the right modules
