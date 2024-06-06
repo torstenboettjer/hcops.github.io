@@ -8,4 +8,12 @@ out/
 log/*.log
 tmp/**
 node_modules/
-.sass-cache
+.sass-cache# Devenv
+.devenv*
+devenv.local.nix
+
+# direnv
+.direnv
+
+# pre-commit
+.pre-commit-config.yaml
