@@ -1,13 +1,16 @@
 # Rethinking Infrastructure as Code
-<<<<<<<< HEAD:content/sdp.md
 
-#### Addressing enterprise requirements with cloud infrastructure that avoids unsecure, costly and slow application deployments
+#### Addressing enterprise requirements with cloud platform that avoids unsecure, costly and slow application deployments
+
+<!-- .slide: data-transition="slide" data-background="#5D1D2E" data-background-transition="zoom" -->
 
 ---
 
 ### Service Delivery Platform
 
 <img data-src="content/pictures/sdp-platform.svg">
+
+<!-- .slide: data-transition="slide" data-background="#5D1D2E" data-background-transition="zoom" -->
 
 ---
 
@@ -21,7 +24,6 @@
 ---
 
 ## Advanced requirements
->>>>>>>> 25902947 (merge):content/sdp_draft.md
 * a **configuration interface** that abstracts away underlying cloud provider details
 * enforce **security best practices** least privileged access by default
 * integrated **cost estimation** prior to the deployment of a cloud service
