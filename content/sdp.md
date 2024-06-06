@@ -29,7 +29,7 @@
 
 ---
 
-### Service Delivery Platform
+### Service Operator Framework
 
 <img data-src="content/pictures/platform.svg">
 
