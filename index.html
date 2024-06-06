@@ -8,7 +8,7 @@
 
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css">
+		<link rel="stylesheet" href="dist/theme/ecs.css">
 
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css">
@@ -16,13 +16,16 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section
-					data-markdown="content/sdp.md"
-					data-separator="^\r?\n---\r?\n$"
-					data-separator-vertical="^\r?\n--\r?\n$"
+				<section data-markdown="/content/sdp.md"
+					data-separator="^\r?\n---\r?\n"
+					data-separator-vertical="^\r?\n--\r?\n"
 					data-separator-notes="^Note:"
-					data-charset="iso-8859-15"
-				>
+					data-charset="iso-8859-15">
+						<!--
+							Note that Windows uses `\r\n` instead of `\n` as its linefeed character.
+							For a regex that supports all operating systems, use `\r?\n` instead of `\n`.
+						-->
+				</section>
 			</div>
 		</div>
 
