@@ -29,7 +29,7 @@
 
 ---
 
-### Hybrid Cloud Services
+### Cloud Transformation Framework
 
 <img data-src="content/pictures/blueprint.svg" class="stretch">
 
@@ -37,7 +37,7 @@
 
 --
 
-### Service Operator Framework
+### Service Operator Platform
 
 <img data-src="content/pictures/platform.svg">
 
