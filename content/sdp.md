@@ -29,9 +29,9 @@
 
 ---
 
-### Hybrid Cloud Services <br> for Enterprises
+### Hybrid Cloud Services
 
-<img data-src="content/pictures/framework.svg">
+<img data-src="content/pictures/blueprint.svg" class="stretch">
 
 <!-- .slide: data-transition="slide" data-background="#F6F6F6" data-background-transition="zoom" -->
 
