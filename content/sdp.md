@@ -29,6 +29,14 @@
 
 ---
 
+### Hybrid Cloud Services <br> for Enterprises
+
+<img data-src="content/pictures/framework.svg">
+
+<!-- .slide: data-transition="slide" data-background="#F6F6F6" data-background-transition="zoom" -->
+
+--
+
 ### Service Operator Framework
 
 <img data-src="content/pictures/platform.svg">
